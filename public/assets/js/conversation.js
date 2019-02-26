@@ -1,6 +1,6 @@
 function call(http, method, body)
 {
-    var id = "f37858b2-687e-43e9-846e-7dad2c4c83b4";
+    var id = "3d638685-944f-430e-8b40-542d5699061b";
     try
     {
         id = body["id"];
@@ -62,14 +62,13 @@ function concatMessages(boolean, length, load1, messages)
 
 function setAlignemt(user, newChild)
 {
-    if (user !== "You")
+    if (user === "You")
     {
-
-        newChild.setAttribute("style", "align: right");
+        newChild.setAttribute("class", "float-right");
     }
     else
     {
-        newChild.setAttribute("style", "align: left");
+        // newChild.setAttribute("style", "align: left");
     }
 }
 
