@@ -4,6 +4,7 @@
 
 html, body {
     height: 100%;
+    background-color: lightsteelblue;
 }
 
 html {
@@ -31,6 +32,10 @@ h1 {
 a {
     color: white;
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 .wrapper {

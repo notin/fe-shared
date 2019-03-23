@@ -1,0 +1,35 @@
+/* custom style classes */
+body {
+    background-color: lightsteelblue;
+}
+
+.chat-box {
+    color: black;
+    background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-input {
+    border-top: .1em dashed aquamarine;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    margin: 0;
+    color: black; 
+    background-color: white;
+    width: 100%;
+    padding: 1em .5em;
+}
+.chat-message-left {    
+    padding: 1em;
+    text-align: left;
+}
+.chat-message-right {
+    padding: 1em;
+    text-align: right;
+}
+.chat-individual-message {
+    margin: 0;
+}
