@@ -4,21 +4,21 @@ body {
 }
 
 .chat-box {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color:black;
     padding: 0;
     display: flex;
     flex-direction: column;
 }
 
 .chat-input {
-    border-top: .1em dashed aquamarine;
+    border-top: black;
     border-bottom: 0;
     border-right: 0;
     border-left: 0;
     margin: 0;
-    color: black; 
-    background-color: white;
+    color: white;
+    background-color: black;
     width: 100%;
     padding: 1em .5em;
 }
