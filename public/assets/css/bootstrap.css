@@ -5161,6 +5161,13 @@ tbody.collapse.show {
     }
 }
 
+@media (min-width: 576px) {
+    .balckJumbotron {
+        padding: 4rem 2rem;
+
+    }
+}
+
 .jumbotron-fluid {
     padding-right: 0;
     padding-left: 0;

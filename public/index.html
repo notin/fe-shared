@@ -1,59 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Don't shoot the messenger</title>
-    <meta name="description" content=""/>
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="assets/css/gradients.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-reboot.css" rel="stylesheet">
-</head>
-
-<body class="" style="background-color: lightsteelblue" marginwidth="0">
-
-<header>
-    <nav class="website-nav">
-        <ul>
-            <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-        </ul>
-    </nav>
-</header>
-<div class="container" style="color: black" style="border-style: solid"
-     style="border-spacing: 1000px">
-    <div class="text">
-        <h1>Convey</h1>
-        <h2>messaging</h2>
-        <div style="border: darkgrey">
+    <head>
+        <meta charset="utf-8">
+        <title>Don't shoot the messenger</title>
+        <meta name="description" content=""/>
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <link href="assets/css/gradients.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-reboot.css" rel="stylesheet">
+        <link href="assets/css/r-style.css" rel="stylesheet">
+    </head>
+    <header>
+        <nav class="navbar navbar-light">
+                <a class="navbar-brand" href="#">home</a>
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+            <h1>convey</h1>
+            <div class="chat-box">
+                <div class="chat-message-right">
+                    <p class="chat-individual-message">dummy right text</p>
+                </div>
+                <div class="chat-message-left">
+                    <p class="chat-individual-message">dummy left text</p>    
+                </div>
+                <input class="chat-input" value="say something" id="yourMessage">
+            </div>
+            <button style="background-color: aliceblue" onclick="show('message')"> Click to start conversation </button>
         </div>
-        <p>
-        <div class="jumbotron" style="border: darkgrey; color: white; background-color: black">
-            <ul>
-                <li id="message">
-                </li>
-            </ul>
-        </div>
-        </p>
-        <p>
-            <input style="align: right" style="border: darkgrey; color: white; background-color: black"
-                   value="say something" id="yourMessage">
-        </p>
-        <p>
-            <button style="background-color: aliceblue" onclick="show('message')">
-                Click to start conversation
-            </button>
-        </p>
-    </div>
-</div>
-</div>
+    </body>
 
-<!--<script src="assets/js/set-background.js"/>-->
-<script src="assets/js/conversation.js"></script>
-<footer>
-    <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a>
-        in Seattle.</p>
-</footer>
-</body>
+    <!--<script src="assets/js/set-background.js"/>-->
+    <script src="assets/js/conversation.js"></script>
+    <footer>
+        <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a>
+            in Seattle.</p>
+    </footer>
 
 </html>
